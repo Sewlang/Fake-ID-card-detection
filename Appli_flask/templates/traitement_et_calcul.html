@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traitement et calcul de Similarité</title>
+</head>
+
+<body>
+    <div class="ssim">
+        <p>Le SSIM est : {{ssim_moy}} </p>
+    </div>
+    <div class="im-original-cont">
+        <div class="im-ori-text">
+            <h3>Image de référence et contours de differences</h3>
+        </div>
+        <div class="img-original">
+            <img src="{{url_for('static', filename='uploadedFolder/Image_de_ref_contours.png')}}" width="250" alt=" ">
+        </div>
+    </div>
+    <div class="im-compare-cont">
+        <div class="im-comp-text">
+            <h3>Image comparée et contours de differences</h3>
+        </div>
+        <div class="img-compare">
+            <img src="{{url_for('static', filename='uploadedFolder/Image_compare_contours.png')}}" width="250" alt=" ">
+        </div>
+    </div>
+</body>
+
+</html>

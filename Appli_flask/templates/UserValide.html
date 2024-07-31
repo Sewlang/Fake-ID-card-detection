@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour</title>
+    <nav>
+        <img src="\static\img\img_logo.png" alt="logo" width="50">
+        <h1>Bienvenu</h1>
+    </nav>
+</head>
+<body>
+{% if not nomutilisateur == "azerty": %}
+     <p>Accès refusé</p>
+{%else:%}
+    <a href="{{url_for('AuthenticationChecker')}}">Authentifier une image</a>
+{% endif%}
+</body>
+</html>
