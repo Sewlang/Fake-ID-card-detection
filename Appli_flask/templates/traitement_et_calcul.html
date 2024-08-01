@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traitement et calcul de Similarité</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <header>
+        <h1>Traitement et Calcul de Similarité</h1>
+    </header>
     <div class="ssim">
         <p>Le SSIM est : {{ssim_moy}} </p>
     </div>
@@ -27,6 +29,14 @@
             <img src="{{url_for('static', filename='uploadedFolder/Image_compare_contours.png')}}" width="250" alt=" ">
         </div>
     </div>
+    <footer>
+        <div class="footer-links">
+            <a href="#">À propos</a>
+            <a href="#">Publicité</a>
+            <a href="#">Entreprise</a>
+            <a href="#">Comment ça marche ?</a>
+        </div>
+        &copy; 2024 Votre Nom ou Entreprise
+    </footer>
 </body>
-
 </html>
