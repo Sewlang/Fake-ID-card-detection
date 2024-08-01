@@ -1,6 +1,5 @@
 from flask import Flask, request, url_for, render_template
 import imutils.contours
-import numpy as np
 import matplotlib.pyplot as plt
 from skimage.metrics import structural_similarity   #Pour comparer la similarité structurelle entre deux images
 import cv2 #Pour du image processing
