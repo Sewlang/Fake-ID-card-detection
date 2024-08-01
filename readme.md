@@ -11,7 +11,7 @@ conda create -name <*nom de l'environnement*>
 **Étape 4 :** activez l'environnement par la commande suivante :
 conda activate <*nom de l'environnement*>
 
-**Étape 5 :** utilisez la commande ci-dessous pour installer les dépendances requises : python -m pip install -r requirements.txt
+**Étape 5 :** utilisez la commande ci-dessous pour installer les dépendances requises : *python -m pip install -r requirements.txt*
 
 **Étape 6 :** exécutez l'application par la commande ;
 python app.py
