@@ -26,4 +26,4 @@ Vous obtiendrez l'URL, copiez-la et collez-la dans le navigateur.
 
 **Etape 10 :** Vous obientiendrez la valeur du SSIM (Structural Similarity ) appelé similarité structurelle
 
-**Étape 11 :** vous avez un dossier [uploadedFolder] (https://github.com/Sewlang/Fake-ID-card-detection/tree/master/Appli_flask/static/uploadedFolder) dans lequel vous pouvez obtenir les points de differences des images testées.
+**Étape 11 :** vous avez un dossier [uploadedFolder](https://github.com/Sewlang/Fake-ID-card-detection/tree/master/Appli_flask/static/uploadedFolder) dans lequel vous pouvez obtenir les points de differences des images testées.
